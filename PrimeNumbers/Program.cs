@@ -49,7 +49,7 @@ class Program
         {
             int x; //除數
             int y; //被除數
-            bool z; //是否有餘數(1為有;0為沒有)
+            bool z; //是否有餘數
             for (y = start; y < end; y++)
             {
                 z = true;
