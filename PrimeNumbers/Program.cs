@@ -10,18 +10,14 @@ class Program
         Accept = false;
         while (!Accept)
         {
-            if (StartNumCheck)
+            if (StartNumCheck&&start >= 1)
             {
-                while (start < 1)
-                {
-                    Console.WriteLine("開始範圍必須為大於1之整數，請重新輸入");
-                    int.TryParse(Console.ReadLine(), out start);
-                }
                 Accept = true;
             }
             else
             {
-                Console.WriteLine("範圍必須為數字，請重新輸入");
+                Console.WriteLine("開始範圍必須為大於0之整數，請重新輸入");
+                int.TryParse(Console.ReadLine(), out start);
             }
         }
         Console.WriteLine("請輸入結束範圍");
@@ -29,18 +25,14 @@ class Program
         Accept = false;
         while (!Accept)
         {
-            if (EndNumCheck)
+            if (EndNumCheck&&end > start)
             {
-                while (end < start + 1)
-                {
-                    Console.WriteLine("結束範圍必須大於開始範圍，請重新輸入");
-                    int.TryParse(Console.ReadLine(), out end);
-                }
                 Accept = true;
             }
             else
             {
-                Console.WriteLine("範圍必須為數字，請重新輸入");
+                Console.WriteLine("結束範圍必須大於開始範圍，請重新輸入");
+                int.TryParse(Console.ReadLine(), out end);
             }
         }
         Console.WriteLine("-------------------------");
@@ -53,9 +45,9 @@ class Program
             for (y = start; y < end; y++)
             {
                 z = true;
-                for (x = 2; x < y; x++)
+                for (x = 2; x < y || y == 1; x++)
                 {
-                    if (y % x == 0)
+                    if (y % x == 0 || y == 1)
                     {
                         z = false;
                         break;
@@ -92,7 +84,7 @@ class Program
                 {
                     Console.WriteLine(b + " 為質數");
                 }
-                b += 1;
+                b += 1; //漏寫會導致無窮迴圈
             }
             Console.WriteLine();
             Console.WriteLine("-------------------------");

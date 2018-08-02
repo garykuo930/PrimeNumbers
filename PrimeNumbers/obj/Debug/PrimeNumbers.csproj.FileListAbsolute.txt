@@ -1,0 +1,7 @@
+D:\Csharp_startup\Exercise\Week 1\jul27am\m4_10_課外作業_5_印出_質數\PrimeNumbers\PrimeNumbers\bin\Debug\PrimeNumbers.exe.config
+D:\Csharp_startup\Exercise\Week 1\jul27am\m4_10_課外作業_5_印出_質數\PrimeNumbers\PrimeNumbers\bin\Debug\PrimeNumbers.exe
+D:\Csharp_startup\Exercise\Week 1\jul27am\m4_10_課外作業_5_印出_質數\PrimeNumbers\PrimeNumbers\bin\Debug\PrimeNumbers.pdb
+D:\Csharp_startup\Exercise\Week 1\jul27am\m4_10_課外作業_5_印出_質數\PrimeNumbers\PrimeNumbers\obj\Debug\PrimeNumbers.csprojAssemblyReference.cache
+D:\Csharp_startup\Exercise\Week 1\jul27am\m4_10_課外作業_5_印出_質數\PrimeNumbers\PrimeNumbers\obj\Debug\PrimeNumbers.csproj.CoreCompileInputs.cache
+D:\Csharp_startup\Exercise\Week 1\jul27am\m4_10_課外作業_5_印出_質數\PrimeNumbers\PrimeNumbers\obj\Debug\PrimeNumbers.exe
+D:\Csharp_startup\Exercise\Week 1\jul27am\m4_10_課外作業_5_印出_質數\PrimeNumbers\PrimeNumbers\obj\Debug\PrimeNumbers.pdb
